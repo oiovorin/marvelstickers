@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Marvel Characters Team Page</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<body>
-    <!-- content goes here -->
-</body>
-
+  <body>
+    <header>
+      <h1 class="hidden">Marvel - All abour the Team</h1>
+      <img id="main-logo" src="images/logo.svg" alt="Avengers Logo" />
+      <nav id="Character-nav">
+        <h2 class="hidden">Main Navigation</h2>
+        <ul>
+          <li>Icons</li>
+          <li>Stickers</li>
+          <li>Interface Icons</li>
+          <li>Animated Icons</li>
+          <li id="more-button">More...</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <nav>
+        <h2 class="hidden">Character Selection Navigation</h2>
+        <ul class="Characters">
+          <li id="carol">
+            <div class="img_wrapper">
+              <img
+                src="images/carol.jpeg"
+                alt="Headshot of Captain Marvel(Carol)"
+              />
+            </div>
+            <input type="checkbox" /><span>Pick Me!</span>
+          </li>
+          <li id="clint">
+            <div class="img_wrapper">
+              <img src="images/clint.jpeg" alt="Headshot of Hawkeye(Clint)" />
+            </div>
+            <input type="checkbox" /><span>Pick Me!</span>
+          </li>
+          <li id="hulk">
+            <div class="img_wrapper">
+              <img src="images/hulk.jpeg" alt="Headshot of the Hulk(Bruce)" />
+            </div>
+            <input type="checkbox" /><span>Pick Me!</span>
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <h3>Pick your Stickers!</h3>
+        <p>Use the checkboxs to add stickers to your cart!</p>
+      </article>
+    </main>
+    <footer class="sticky_footer">
+      <h2>All Images &copy; Marvel</h2>
+    </footer>
+  </body>
 </html>
